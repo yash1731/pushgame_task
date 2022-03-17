@@ -89,7 +89,11 @@ describe("renders the home page", () =>{
           cy.get('canvas').click(750, 500, { force: true })
           cy.get('canvas').click(750, 550, { force: true })
 
-         // code for if CLICK HERE button is fixed in one place
+         // Clicking in entire page to find click button in not a good practice.
+         // we can use for loop once click button found stop clicking any more.
+          
+
+         // code example -  if CLICK HERE button is fixed in one place
 
           cy.get('canvas').then($canvas => {
               const canvasWidth = $canvas.width();

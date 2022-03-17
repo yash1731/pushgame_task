@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-17T11:28:20.496Z",
+    "end": "2022-03-17T11:29:00.493Z",
+    "duration": 39997,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ecf1cf87-599f-4e8e-9495-8dff8ab0de1a",
+      "title": "",
+      "fullFile": "cypress/integration/1-getting-started/homepage.js",
+      "file": "cypress/integration/1-getting-started/homepage.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "25a5ab35-26d5-4311-8f93-212352e7bb52",
+          "title": "renders the home page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "renders correctly",
+              "fullTitle": "renders the home page renders correctly",
+              "timedOut": null,
+              "duration": 39480,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.wait(4000);\ncy.title().should('include', 'Interaction Test');\ncy.get('canvas').click({\n  force: true\n}); // 1st column     \ncy.get('canvas').click(50, 50, {\n  force: true\n});\ncy.get('canvas').click(50, 100, {\n  force: true\n});\ncy.get('canvas').click(50, 200, {\n  force: true\n});\ncy.get('canvas').click(50, 300, {\n  force: true\n});\ncy.get('canvas').click(50, 400, {\n  force: true\n});\ncy.get('canvas').click(50, 500, {\n  force: true\n});\ncy.get('canvas').click(50, 550, {\n  force: true\n}); // 2nd column\ncy.get('canvas').click(150, 50, {\n  force: true\n});\ncy.get('canvas').click(150, 100, {\n  force: true\n});\ncy.get('canvas').click(150, 200, {\n  force: true\n});\ncy.get('canvas').click(150, 300, {\n  force: true\n});\ncy.get('canvas').click(150, 400, {\n  force: true\n});\ncy.get('canvas').click(150, 500, {\n  force: true\n});\ncy.get('canvas').click(150, 550, {\n  force: true\n}); //3rd column\ncy.get('canvas').click(250, 50, {\n  force: true\n});\ncy.get('canvas').click(250, 100, {\n  force: true\n});\ncy.get('canvas').click(250, 200, {\n  force: true\n});\ncy.get('canvas').click(250, 300, {\n  force: true\n});\ncy.get('canvas').click(250, 400, {\n  force: true\n});\ncy.get('canvas').click(250, 500, {\n  force: true\n});\ncy.get('canvas').click(250, 550, {\n  force: true\n}); //4th column\ncy.get('canvas').click(350, 50, {\n  force: true\n});\ncy.get('canvas').click(350, 100, {\n  force: true\n});\ncy.get('canvas').click(350, 200, {\n  force: true\n});\ncy.get('canvas').click(350, 300, {\n  force: true\n});\ncy.get('canvas').click(350, 400, {\n  force: true\n});\ncy.get('canvas').click(350, 500, {\n  force: true\n});\ncy.get('canvas').click(350, 550, {\n  force: true\n}); //5th column\ncy.get('canvas').click(450, 50, {\n  force: true\n});\ncy.get('canvas').click(450, 100, {\n  force: true\n});\ncy.get('canvas').click(450, 200, {\n  force: true\n});\ncy.get('canvas').click(450, 300, {\n  force: true\n});\ncy.get('canvas').click(450, 400, {\n  force: true\n});\ncy.get('canvas').click(450, 500, {\n  force: true\n});\ncy.get('canvas').click(450, 550, {\n  force: true\n}); //6th column\ncy.get('canvas').click(550, 50, {\n  force: true\n});\ncy.get('canvas').click(550, 100, {\n  force: true\n});\ncy.get('canvas').click(550, 200, {\n  force: true\n});\ncy.get('canvas').click(550, 300, {\n  force: true\n});\ncy.get('canvas').click(550, 400, {\n  force: true\n});\ncy.get('canvas').click(550, 500, {\n  force: true\n});\ncy.get('canvas').click(550, 550, {\n  force: true\n}); //7th column\ncy.get('canvas').click(650, 50, {\n  force: true\n});\ncy.get('canvas').click(650, 100, {\n  force: true\n});\ncy.get('canvas').click(650, 200, {\n  force: true\n});\ncy.get('canvas').click(650, 300, {\n  force: true\n});\ncy.get('canvas').click(650, 400, {\n  force: true\n});\ncy.get('canvas').click(650, 500, {\n  force: true\n});\ncy.get('canvas').click(650, 550, {\n  force: true\n}); //8th column\ncy.get('canvas').click(750, 50, {\n  force: true\n});\ncy.get('canvas').click(750, 100, {\n  force: true\n});\ncy.get('canvas').click(750, 200, {\n  force: true\n});\ncy.get('canvas').click(750, 300, {\n  force: true\n});\ncy.get('canvas').click(750, 400, {\n  force: true\n});\ncy.get('canvas').click(750, 500, {\n  force: true\n});\ncy.get('canvas').click(750, 550, {\n  force: true\n}); // code for if CLICK HERE button is fixed in one place\ncy.get('canvas').then($canvas => {\n  const canvasWidth = $canvas.width();\n  const canvasHeight = $canvas.height();\n  const canvasCenterX = canvasWidth / 2;\n  const canvasCentreY = canvasHeight / 2;\n  cy.wrap($canvas).scrollIntoView().click(canvasCenterX, canvasCentreY);\n});",
+              "err": {},
+              "uuid": "05426953-59d5-445d-a619-e1bdc81f6a1c",
+              "parentUUID": "25a5ab35-26d5-4311-8f93-212352e7bb52",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "05426953-59d5-445d-a619-e1bdc81f6a1c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 39480,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.1.1"
+    }
+  }
+}
