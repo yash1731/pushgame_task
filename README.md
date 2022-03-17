@@ -33,6 +33,9 @@ After forking this project in Github, run these commands:
 ## Clone this repo to a local directory
 git clone  https://github.com/yash1731/pushgame_task
 
+## Cypress test folder 
+D:\cypress\interaction-test\cypress\integration\1-getting-started\homepage.js
+
 ## Install the node_modules
 npm install
 
