@@ -1,0 +1,17 @@
+{
+    "baseUrl":"http://localhost:3000/",
+       
+    "ignoreTestFiles": [
+                        "**/__snapshots__/*",
+                       "**/__image_snapshots__/*"
+    ],
+
+    "projectId": "f358de",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
+    
+  }
