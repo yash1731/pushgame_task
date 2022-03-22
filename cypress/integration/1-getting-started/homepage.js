@@ -7,8 +7,20 @@ describe("renders the home page", () =>{
                  
          cy.title().should('include','Interaction Test');
          
-          cy.get('canvas').click({ force: true });        
+          cy.get('canvas').click({ force: true });    
           
+          
+          cy.eyesOpen({
+            appName: 'test home page',
+            testName: 'login test',
+          })
+          cy.eyesCheckWindow({
+            tag: "Login Window",
+            target: 'window',
+            fully: true
+        });
+
+                       
           // 1st column     
          
           cy.get('canvas').click(50, 50, { force: true })
@@ -107,6 +119,14 @@ describe("renders the home page", () =>{
                 .click(canvasCenterX, canvasCentreY)
 
            })    
+
+           cy.eyesCheckWindow({
+            tag: "App Window",
+            target: 'window',
+            fully: true
+        });
+        cy.eyesClose()
+  
           })
         })  
                  

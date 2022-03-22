@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-22T14:42:25.003Z",
+    "end": "2022-03-22T14:42:59.512Z",
+    "duration": 34509,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "11ccab85-9f18-4622-a193-edf558552332",
+      "title": "",
+      "fullFile": "cypress/integration/1-getting-started/homepage.js",
+      "file": "cypress/integration/1-getting-started/homepage.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6045395c-c7d6-408a-a7f4-bd55475b59ca",
+          "title": "renders the home page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "renders correctly",
+              "fullTitle": "renders the home page renders correctly",
+              "timedOut": null,
+              "duration": 34110,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.wait(4000);\ncy.title().should('include', 'Interaction Test');\ncy.get('canvas').click({\n  force: true\n});\ncy.eyesOpen({\n  appName: 'test home page',\n  testName: 'login test'\n});\ncy.eyesCheckWindow({\n  tag: \"Login Window\",\n  target: 'window',\n  fully: true\n}); // 1st column     \ncy.get('canvas').click(50, 50, {\n  force: true\n});\ncy.get('canvas').click(50, 100, {\n  force: true\n});\ncy.get('canvas').click(50, 200, {\n  force: true\n});\ncy.get('canvas').click(50, 300, {\n  force: true\n});\ncy.get('canvas').click(50, 400, {\n  force: true\n});\ncy.get('canvas').click(50, 500, {\n  force: true\n});\ncy.get('canvas').click(50, 550, {\n  force: true\n}); // 2nd column\ncy.get('canvas').click(150, 50, {\n  force: true\n});\ncy.get('canvas').click(150, 100, {\n  force: true\n});\ncy.get('canvas').click(150, 200, {\n  force: true\n});\ncy.get('canvas').click(150, 300, {\n  force: true\n});\ncy.get('canvas').click(150, 400, {\n  force: true\n});\ncy.get('canvas').click(150, 500, {\n  force: true\n});\ncy.get('canvas').click(150, 550, {\n  force: true\n}); //3rd column\ncy.get('canvas').click(250, 50, {\n  force: true\n});\ncy.get('canvas').click(250, 100, {\n  force: true\n});\ncy.get('canvas').click(250, 200, {\n  force: true\n});\ncy.get('canvas').click(250, 300, {\n  force: true\n});\ncy.get('canvas').click(250, 400, {\n  force: true\n});\ncy.get('canvas').click(250, 500, {\n  force: true\n});\ncy.get('canvas').click(250, 550, {\n  force: true\n}); //4th column\ncy.get('canvas').click(350, 50, {\n  force: true\n});\ncy.get('canvas').click(350, 100, {\n  force: true\n});\ncy.get('canvas').click(350, 200, {\n  force: true\n});\ncy.get('canvas').click(350, 300, {\n  force: true\n});\ncy.get('canvas').click(350, 400, {\n  force: true\n});\ncy.get('canvas').click(350, 500, {\n  force: true\n});\ncy.get('canvas').click(350, 550, {\n  force: true\n}); //5th column\ncy.get('canvas').click(450, 50, {\n  force: true\n});\ncy.get('canvas').click(450, 100, {\n  force: true\n});\ncy.get('canvas').click(450, 200, {\n  force: true\n});\ncy.get('canvas').click(450, 300, {\n  force: true\n});\ncy.get('canvas').click(450, 400, {\n  force: true\n});\ncy.get('canvas').click(450, 500, {\n  force: true\n});\ncy.get('canvas').click(450, 550, {\n  force: true\n}); //6th column\ncy.get('canvas').click(550, 50, {\n  force: true\n});\ncy.get('canvas').click(550, 100, {\n  force: true\n});\ncy.get('canvas').click(550, 200, {\n  force: true\n});\ncy.get('canvas').click(550, 300, {\n  force: true\n});\ncy.get('canvas').click(550, 400, {\n  force: true\n});\ncy.get('canvas').click(550, 500, {\n  force: true\n});\ncy.get('canvas').click(550, 550, {\n  force: true\n}); //7th column\ncy.get('canvas').click(650, 50, {\n  force: true\n});\ncy.get('canvas').click(650, 100, {\n  force: true\n});\ncy.get('canvas').click(650, 200, {\n  force: true\n});\ncy.get('canvas').click(650, 300, {\n  force: true\n});\ncy.get('canvas').click(650, 400, {\n  force: true\n});\ncy.get('canvas').click(650, 500, {\n  force: true\n});\ncy.get('canvas').click(650, 550, {\n  force: true\n}); //8th column\ncy.get('canvas').click(750, 50, {\n  force: true\n});\ncy.get('canvas').click(750, 100, {\n  force: true\n});\ncy.get('canvas').click(750, 200, {\n  force: true\n});\ncy.get('canvas').click(750, 300, {\n  force: true\n});\ncy.get('canvas').click(750, 400, {\n  force: true\n});\ncy.get('canvas').click(750, 500, {\n  force: true\n});\ncy.get('canvas').click(750, 550, {\n  force: true\n}); // Clicking in entire page to find click button in not a good practice.\n// we can use for loop once click button found stop clicking any more.\n// code example -  if CLICK HERE button is fixed in one place\ncy.get('canvas').then($canvas => {\n  const canvasWidth = $canvas.width();\n  const canvasHeight = $canvas.height();\n  const canvasCenterX = canvasWidth / 2;\n  const canvasCentreY = canvasHeight / 2;\n  cy.wrap($canvas).scrollIntoView().click(canvasCenterX, canvasCentreY);\n});\ncy.eyesCheckWindow({\n  tag: \"App Window\",\n  target: 'window',\n  fully: true\n});\ncy.eyesClose();",
+              "err": {},
+              "uuid": "6a1f1976-3692-4367-9fb4-a1f290c38b1a",
+              "parentUUID": "6045395c-c7d6-408a-a7f4-bd55475b59ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6a1f1976-3692-4367-9fb4-a1f290c38b1a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 34110,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.2"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.1.1"
+    }
+  }
+}
