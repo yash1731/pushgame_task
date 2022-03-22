@@ -20,7 +20,7 @@ describe("renders the home page", () =>{
             fully: true
         });
 
-                       
+           cy.viewport('ipad-2')            
           // 1st column     
          
           cy.get('canvas').click(50, 50, { force: true })
